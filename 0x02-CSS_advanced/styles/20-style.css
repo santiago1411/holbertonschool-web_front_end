@@ -371,5 +371,5 @@ template {
   .row::after {
     content: none;
     display: table;
-    clear: both;;
+    clear: both;
   }
