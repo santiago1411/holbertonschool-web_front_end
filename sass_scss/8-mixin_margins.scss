@@ -1,0 +1,10 @@
+/* mixing */
+@mixin info($int: 10px, $int2: 10px) {
+    margin-left: $int;
+    margin-right: $int2;
+}
+body {
+    @include info; }
+  
+  div {
+    @include info($int: 15px, $int2: 15px) }
